@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>MyCompany</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto+Condensed&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <div>
+            <p>Имя</p>
+            <input tabindex="1" placeholder="Имя" tabindex="1" name="username" type="text">
+        </div>
+        <div>
+            <p>Пароль</p>
+            <input tabindex="2" placeholder="Пароль" tabindex="2" name="password" type="password">
+        </div>
+        <div>
+            <p>Телефон</p>
+            <input tabindex="3" placeholder="Телефон" tabindex="3" name="password" type="tel">
+        </div>
+        <div>
+            <p>Пол</p>
+            <div>
+                <input tabindex="4" checked type="radio" name="gender" value="male">Мужской
+            </div>
+            <div>
+                <input tabindex="5" type="radio" name="gender" value="female">Женский
+            </div>
+        </div>
+        <div>
+            <p>Имущество</p>
+            <div>
+                <input tabindex="6" checked type="checkbox" name="vel" value="Велик">Велик
+            </div>
+            <div>
+                <input tabindex="7" type="checkbox" name="car" value="Машина" >Машина
+            </div>
+            <div>
+            <input tabindex="8" type="checkbox" name="room" value="Квартира">Квартира
+        </div>
+        </div>
+        <div>
+            <p>Дополнительная информация</p>
+            <textarea tabindex="9"></textarea>
+        </div>
+        <div>
+            <p>Прикрепить фото</p>
+            <div>
+                <input tabindex="10"  type="file" name="file" >
+            </div>
+        </div>
+        <div>
+            <p>Любимый цвет</p>
+            <div>
+                <select tabindex="11" name="color">
+                    <option value="red">Красный</option>
+                    <option selected value="yelow">Желтый</option>
+                    <option value="green">Зеленый</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <p>Действие</p>
+            <div>
+                <button tabindex="12" type="submit">Отправить</button>
+                <button tabindex="13" type="reset">Очистить</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>
