@@ -73,18 +73,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-.example-block {
-    font-size: 30px;
-    margin: 20px;
-    opacity: 0.2;
 
+body {
+    padding: 10px;
 }
 
-.example-string {
-    font-size: 30px;
-    border: 10px dashed #000
+.list {
+    margin: 0 0 50px 0;
 }
 
-.example-img {
-    border: 10px dashed #000
+.list li {
+    font-size: 24px;
+    margin: 0 0 15px 0;
+    background:  url('img/icons/li.svg') left 5px no-repeat;
+    padding: 0 0 0 30px;
+}
+
+.block {
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000000;
+    background:  url('img/avatar.jpg') 0 0 no-repeat, url('img/bg.jpg') 50%/cover no-repeat;
+
 }
